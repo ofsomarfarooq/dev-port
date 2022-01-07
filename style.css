@@ -21,8 +21,8 @@ h1{
       border: none;
       outline: none;
    }
-   section{
-      display: flex; 
+   .flexible-container{
+    display: flex; 
       margin-bottom: 150px;
    }
    .half-width{
@@ -52,4 +52,36 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.half-width1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:10px ;
+   box-shadow: 10px 10px 40px grey ;  
+   border-left:10px solid;
+}
+h2{
+    font-size: 30px;
+}
+.experience{
+    background-image: url(images/exp-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+#a{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, salmon);
+    border-image-slice: 1;
+}
+#b{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, yellow);
+    border-image-slice: 1;
+}
+footer  {
+    text-align: center;
 }

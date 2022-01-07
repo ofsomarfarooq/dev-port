@@ -13,12 +13,13 @@
 </head>
 
 <body>
-    <section class="top-banner">
+    <section class="top-banner flexible-container">
         <div class="half-width">
             <h1>This all-about</h1>
             <h1><span class="name">Hero Alom</span> the Unstoppable Legend</h1>
             <h3>World Class meme material</h3>
-            <p>I'm an actor.I'm a singer.I'm a Politician.I'm a hero.I can do anything for entertainment.You might saw
+            <p>I'm a model.I'm an actor.I'm a singer.I'm a Politician.I'm a hero.I can do anything for entertainment.You
+                might saw
                 me in
                 various meme templates.It was a time when my meme templates had been very popular all over
                 Asia(Specially in
@@ -55,7 +56,7 @@
             <img src="images/my-bg.png" alt="">
         </div>
     </section>
-    <section class="be-strong">
+    <section class="be-strong flexible-container">
         <div class="half-width">
             <img src="images/habg.png" alt="">
         </div>
@@ -70,6 +71,65 @@
 
 
     </section>
+    <section class="experience ">
+        <h1>Experiences</h1>
+        <div class="flexible-container">
+            <div id="a" class="half-width1">
+                <h2>Main character in a movie</h2>
+                <h3 class="name">2017-My first film | "Mar Chokka" </h3>
+                <p>Mar Chokka (Bengali: মার ছক্কা) is a Bengali film directed Sopnil Khan produced by Moin Biswas and
+                    music
+                    by Ali Akram Shuvo.[2][3] It is distributed by Jyoti Films International.[4] Starring Omar Sani,[5]
+                    Sadek Bachchu and Hero Alom. It was declared disaster film of the year</p>
+            </div>
+            <div id="b" class="half-width1">
+                <h2>Candidate in a Election</h2>
+                <h3 class="name">2018-Candidacy in general election of Bangladesh</h3>
+                <p>In 2018 Alom decided to contest in 2018 Bangladeshi general election and he bought his candidature
+                    form
+                    for Bogra-4 constituency buying a Jatiya Party (E) nomination paper ahead of the 11th national
+                    elections,[12] but Jatiya Party denied him nomination. Later, he sought his candidacy as an
+                    independent<span id="dots">...</span><span id="more">
+                        candidate.[13] On 10 December High Court instructed Bangladesh Election Commission to accept his
+                        candidature form as the latter authority denied his candidature earlier and Alom contested in
+                        the
+                        election as an independent candidate.[14][15] His candidacy drew so much media attention that,
+                        in
+                        2018,
+                        he became the 2nd Bangladeshi only behind Khaleda Zia to be in the top 10 in the category of
+                        people
+                        in
+                        2018 google search trend in Bangladesh.[16][17] Eventually he lost in the election getting only
+                        638
+                        votes in his name and BNP candidate Mosharraf Hossain won the seat of that constituency</span>
+                </p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                <script>
+                    function myFunction() {
+                        var dots = document.getElementById("dots");
+                        var moreText = document.getElementById("more");
+                        var btnText = document.getElementById("myBtn");
+
+                        if (dots.style.display === "none") {
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Read more";
+                            moreText.style.display = "none";
+                        } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                </script>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <footer>Just for Fun</footer>
+    <footer>© Created by Ofs , A beginning developer</footer>
 </body>
 
 </html>
