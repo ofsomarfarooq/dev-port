@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <section class="top-banner">
+        <div class="half-width">
+            <h1>This all-about</h1>
+            <h1><span class="name">Hero Alom</span> the Unstoppable Legend</h1>
+            <h3>World Class meme material</h3>
+            <p>I'm an actor.I'm a singer.I'm a Politician.I'm a hero.I can do anything for entertainment.You might saw
+                me in
+                various meme templates.It was a time when my meme templates had been very popular all over
+                Asia(Specially in
+                South Asia).My memes used to be very funny when these were very popular.Basically, my meme templates had
+                come from my self made music videos where I always acted on the hero character.In those videos<span
+                    id="dots">...</span><span id="more">I was not suited as a hero character which makes meself funny
+                    and
+                    also viral in all over the internet.And most of my memes had came from my own creation where I
+                    always
+                    took myself as a hero.Not only that I named myself as <span class="name">Hero Alom</span>. Thats how
+                    a
+                    Ultra Legend has born. But no one paid me for my memes.Then I joined in the real media. </span> </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button><br>
+            <a class="link-button" target="blank" href="https://www.facebook.com/OfficialHeroAlom">Hire Me</a><br>
+            <script>
+                function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+            </script>
+        </div>
+        <div class="half-width img">
+            <img src="images/my-bg.png" alt="">
+        </div>
+    </section>
 </body>
+
 </html>
